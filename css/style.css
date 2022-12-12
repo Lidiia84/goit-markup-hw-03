@@ -1,0 +1,231 @@
+:root {
+  --color-primary: #212121;
+  --color-secondary: #757575;
+  --color-text-action: #2196f3;
+  --color-primary-bg: #ffffff;
+  --color-secondary-bg: #2f303a;
+  --color-bg-team: #f5f4fa;
+  --color-button-action: #188ce8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-primary-bg);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+  color: black;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.nav-header {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+
+.nav-header:hover {
+  color: var(--color-text-action);
+  cursor: pointer;
+}
+ 
+.nav-header:focus {
+  color: var(--color-text-action);
+}
+
+.link-logo {
+  color: var(--color-text-action);
+}
+
+.auth-nav {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+
+.auth-nav:hover {
+  color: var(--color-text-action);
+}
+
+.auth-nav:focus {
+  color: var(--color-text-action);
+}
+
+/*Герой*/
+
+.hero-section {
+  background-color: var(--color-secondary-bg);
+}
+
+.hero-title {
+  color: var(--color-primary-bg);
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  }
+
+.point {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.button-hero {
+  background-color: var(--color-text-action);
+  color: var(--color-primary-bg);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+}
+
+.button-hero:hover {
+  background-color: var(--color-button-action);
+}
+
+.button-hero:focus {
+  background-color: var(--color-button-action);
+}
+
+.button-filter {
+  background-color: var(--color-bg-team);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--color-text-action);
+  color: var(--color-primary-bg);
+}
+
+.button:hover {
+  background-color: var(--color-text-action);
+}
+
+/*Переваги*/
+
+.main-section {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.main-title {
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+
+.section-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--color-secondary);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.lead {
+  color: var(--color-primary);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+
+.text {
+  color: var(--color-secondary);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/*Наша команда*/
+.section-team {
+  background-color: var(--color-bg-team);
+  list-style: none;
+}
+
+.team-list-item {
+    background-color: var(--color-primary-bg);
+}
+
+/*Footer*/
+.footer {
+  background-color: var(--color-secondary-bg);
+   }
+
+   .logo-footer {
+    color: var(--color-primary-bg);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.38;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  color: var(--color-primary-bg);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  text-decoration: none;
+ }
+
+.adress-nav {
+  color: var(--color-secondary);
+}
+
+.adress-nav:hover,
+.adress-nav:focus {
+  color: var(--color-text-action);
+}
+
+.link {
+  text-decoration: none;
+}
